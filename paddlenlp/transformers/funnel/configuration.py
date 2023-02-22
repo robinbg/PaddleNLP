@@ -14,11 +14,10 @@
 """ BERT model configuration"""
 from __future__ import annotations
 
-from typing import Dict
 
 from paddlenlp.transformers.configuration_utils import PretrainedConfig
 
-__all__ = ["BERT_PRETRAINED_INIT_CONFIGURATION", "BertConfig", "BERT_PRETRAINED_RESOURCE_FILES_MAP"]
+__all__ = ["FUNNEL_PRETRAINED_INIT_CONFIGURATION", "FunnelConfig", "FUNNEL_PRETRAINED_RESOURCE_FILES_MAP"]
 
 FUNNEL_PRETRAINED_INIT_CONFIGURATION =  {
         "funnel-transformer/small": {},  # B4-4-4H768

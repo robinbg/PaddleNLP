@@ -803,7 +803,7 @@ class FunnelPreTrainedModel(PreTrainedModel):
 
     config_class = FunnelConfig
     base_model_prefix = "funnel"
-     @classmethod
+    @classmethod
     def _get_name_mappings(cls, config: BertConfig) -> list[StateDictNameMapping]:
         mappings: list[StateDictNameMapping] = []
         model_mappings = [
